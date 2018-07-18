@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#13227a",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "关于我们",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "#000",
+  "enablePullDownRefresh": true
+}

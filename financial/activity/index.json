@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#13227a",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "活动报名",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "#000",
+  "enablePullDownRefresh": true
+}

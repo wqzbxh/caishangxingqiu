@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "financial/appraisal/appraisal",
+    "financial/about/about",
+    "financial/personal/personal",
+    "financial/test/test",
+    "financial/activity/index",
+    "financial/driver/index",
+    "financial/detail/detail",
+    "financial/examineRecode/index",
+    "financial/driverResult/index",
+    "financial/examineResult/index"
+  ], 
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e2212c",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white",
+    "backgroundColorTop":"#e2212c",
+    "backgroundColorBottom" :"#e2212c"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "financial/driver/index",
+        "text": "知识星球",
+        "iconPath": "public/image/tarbar/zhishi.png",
+        "selectedIconPath": "public/image/tarbar/zhishiCheck.png"
+      },
+      {
+        "pagePath": "financial/activity/index",
+        "text": "活动报名",
+        "iconPath": "public/image/tarbar/activity.png",
+        "selectedIconPath": "public/image/tarbar/activityCheck.png"
+      },
+      {
+        "pagePath": "financial/personal/personal",
+        "text": "个人中心",
+        "iconPath": "public/image/tarbar/mime.png",
+        "selectedIconPath": "public/image/tarbar/mimeCheck.png"
+      },
+      {
+        "pagePath": "financial/appraisal/appraisal",
+        "text": "测评中心",
+        "iconPath": "public/image/tarbar/pingce.png",
+        "selectedIconPath": "public/image/tarbar/pingceCheck.png"
+      },
+      {
+        "pagePath": "financial/about/about",
+        "text": "关于我们",
+        "iconPath": "public/image/tarbar/about.png",
+        "selectedIconPath": "public/image/tarbar/aboutCheck.png"
+      }
+    ],
+    "color": "#617d8a",
+    "selectedColor": "#13227a"
+  }
+}

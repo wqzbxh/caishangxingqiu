@@ -1,0 +1,22 @@
+<view>
+<!-- team -->
+    <view class='banner_view top-5'>
+        <image src='{{image_banner}}'  class='image_banner'></image>
+    </view> 
+  <!-- 公司介绍 -->
+<view class='top-20'></view>
+
+  <view class="flex-wrp  text-line-40 case topBom-10" style="flex-direction:row;">
+    <view class="flex-item marRight-10 martopleft-1">   <image src='{{caiwu}}' class='title_ico top-2'></image></view>
+    <view class="flex-item font-title" >  财务自由规划</view>
+  </view>
+
+  
+  <view class="flex-wrp  text-line-40 case topBom-10" style="flex-direction:row;">
+    <view class="flex-item marRight-10 martopleft-1">   <image src='{{touzi}}' class='title_ico top-2'></image></view>
+    <view class="flex-item font-title">  投资渠道规划</view>
+  </view>
+
+  
+
+</view>
