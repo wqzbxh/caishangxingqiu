@@ -15,8 +15,8 @@ Page({
       { id: '2', date: '2018-05-16', name: '王海阳', idNo: '412728199301015075', phone: '13512169551', recodeType:'2' }
     ],
     carList: [
-      { id: '1', date: '2018-05-16', vin: 'FAS454HSFFSKHFSLD', engine: '412728199301015075', carNo: '沪A88888', recodeType: '1' },
-      { id: '2', date: '2018-05-16', vin: 'FAS454HSQWEPAZXCV', engine: '412728199301015075', carNo: '沪A00000', recodeType: '2' }
+      { id: '1', date: '2018-05-16', status: '1', zhuti: '新工具上线', xiangqing: '帮你理财的小工具来啦', address:'普陀区185号多家花园', recodeType: '1' },
+      { id: '2', date: '2018-05-16', status: '0', zhuti: '新工具上线', xiangqing: '帮你理财的小工具来啦', address: '普陀区185号多家花园', recodeType: '2' }
     ]
   },
 
@@ -39,7 +39,7 @@ Page({
     {
       
       wx.setNavigationBarTitle({
-        title: '车辆核查记录列表'//页面标题为路由参数
+        title: '参加活动表'//页面标题为路由参数
       })
       wx.getStorage({
         key: 'openid',

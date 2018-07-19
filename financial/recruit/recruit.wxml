@@ -1,0 +1,43 @@
+<view>
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image banner_view" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view>
+  <view  class=" case topBom-10 width96" style="text-align:center;">
+    <view class="flex-item font-title"> 【 加盟优点 】</view>
+  </view>
+     <view class='titleFontcontent-12 martopBon-10 width96'>
+        组织文化艺术交流活动（不含演出）；会议服务；承办展览展示；市场营销策划、企业管理咨询、公共关系服务；企业管理；市场调查；翻译服务；设计、制作、代理、发布广告；舞台灯光、音响设计；租赁影视器材、灯光音响设备、影视服装；版权代理；文艺创作；舞蹈培训、声乐培训、绘画培训（不得面向全国招生）；技术开发、转让、服务、咨询、推广；销售工艺品、计算机、软件及辅助设备、电子产品、办公用品、通讯设备（不含卫星地面接收、发射设备）；电影发行；广播电视节目制作；电影摄制等。
+    </view>
+
+
+</view>
+
+<view  class=" case-top topBom-10 width96 top-20" style="text-align:center;">
+    <view class="flex-item font-title "> 【 联系方式 】</view>
+</view>
+
+<form bindsubmit="formSubmit" bindreset="formReset" class='top-20'>
+    <view class="inputClassAll top-20">
+        <view class='inputHight'>
+            <input class='inputClass inputGroup width96 top-20' placeholder-class="inputPlace" name="userName"   placeholder="请输入姓名" value='{{name}}'/>
+        </view>
+  
+        <view class='inputHight'>
+            <input class='inputClass inputGroup width96 top-20' placeholder-class="inputPlace"  name="phone"   placeholder="请输入电话号"/>
+        </view>
+ 
+
+    </view>
+
+    <view class='btnView'>
+      <button class='btn top-20' disabled='{{btnState}}'  formType="submit" >我要加盟</button>
+    </view>
+    
+</form>

@@ -1,8 +1,10 @@
 {
   "pages":[
-    "financial/appraisal/appraisal",
-    "financial/about/about",
     "financial/personal/personal",
+    "financial/about/about",
+    "financial/recruit/recruit",
+    "financial/company/company",
+    "financial/appraisal/appraisal",
     "financial/test/test",
     "financial/activity/index",
     "financial/driver/index",
@@ -13,7 +15,7 @@
   ], 
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#e2212c",
+    "navigationBarBackgroundColor": "#13227a",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"white",
     "backgroundColorTop":"#e2212c",

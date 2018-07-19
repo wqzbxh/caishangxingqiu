@@ -28,7 +28,7 @@
   text-indent: 2px;
 }
 .btn{
-  background: #2d992e;
+  background: #13227a;
   color: #fff;
   width: 94%;
 }
@@ -54,9 +54,7 @@
   margin-top:0.2em;
 }
 /*宽度  */
-.width96{
-  width: 96%;
-}
+
 
 .width100{
   width:100%;
@@ -110,14 +108,14 @@
 }
 .titleFontcontent-12{
   font-size: 12px;
-
+  font-weight: 100;
 }
 
 
 .titleFontGreen{
   font-size: 13px;
   font-weight: bold;
-  color: #2d992e;
+  color: #13227a;
 }
 
 
@@ -134,6 +132,9 @@
 }
 .local{
   text-align: center;
+}
+.text-dent{
+  text-indent:1.2;
 }
 
 /* 背景颜色 */
@@ -241,7 +242,7 @@ line-height:40px
   text-align: center;
   line-height: 24px;
   border-radius: 4px;
-  background: #2d992e;
+  background: #13227a;
   color: #fff;
 }
 
@@ -275,10 +276,9 @@ line-height:40px
 
 
 .title_ico{
-  width:1.5rem;
-  height: 1.5rem
+  width:1.0rem;
+  height: 1.0rem;
 }
-
 .image_banner{
   height: 6rem;
   width: 100%;
@@ -294,3 +294,10 @@ line-height:40px
 .case{
   border-bottom:1px solid #eee; 
 }
+.case-top{
+  border-top:1px solid #eee; 
+}
+.width96{
+  width: 96%;
+  margin-left: 2%;
+ }

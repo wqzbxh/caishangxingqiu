@@ -1,7 +1,8 @@
 {
   "navigationBarBackgroundColor": "#13227a",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "个人信息资料",
+  "navigationBarTitleText": "公司介绍",
   "backgroundColor": "#eeeeee",
-  "backgroundTextStyle": "#000"
+  "backgroundTextStyle": "#000",
+  "enablePullDownRefresh": true
 }

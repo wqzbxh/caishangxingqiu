@@ -1,5 +1,5 @@
 <!--verify/examineResult/index.wxml-->
-<view  wx:if="{{statues == 1}}">
+<view>
     <view class='bk-fff topBom-10 martopBon-5 text-border'>
         <view class='titleFont local top-5 '>1  身份证真假核实结果</view>
         <view class='text-center martopBon-10 titleFontGreen'>姓名和号码匹配OK</view>

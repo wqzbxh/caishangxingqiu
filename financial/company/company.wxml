@@ -1,0 +1,24 @@
+<view>
+  <view>
+      <image class='banner_view' src='{{company_path}}'></image>
+  </view>
+  <view class='width96'>
+    <view class='titleFont martopBon-10'>
+        公司名称：星云汇MMG财商星球
+    </view>
+    <view class='titleFont martopBon-10'>
+        联系方式： <text bindtap='call'>13512169551</text>
+    </view>
+    <view class='titleFont martopBon-10' >
+        公司地址: <text bindtap='getlocal'> 上海市浦东新区移动互联网创业基地</text>
+    </view>
+    <view class='titleFont martopBon-10'>
+        公司详情：
+        <view class='titleFontcontent-12 martopBon-10'>
+        组织文化艺术交流活动（不含演出）；会议服务；承办展览展示；市场营销策划、企业管理咨询、公共关系服务；企业管理；市场调查；翻译服务；设计、制作、代理、发布广告；舞台灯光、音响设计；租赁影视器材、灯光音响设备、影视服装；版权代理；文艺创作；舞蹈培训、声乐培训、绘画培训（不得面向全国招生）；技术开发、转让、服务、咨询、推广；销售工艺品、计算机、软件及辅助设备、电子产品、办公用品、通讯设备（不含卫星地面接收、发射设备）；电影发行；广播电视节目制作；电影摄制等。
+        </view>
+    </view>
+  </view>
+  
+ 
+</view>

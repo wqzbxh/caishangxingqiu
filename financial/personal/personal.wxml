@@ -8,12 +8,12 @@
         </view>
     </view> 
     <view class='martopBon-10 bk-fff text-border '>
-        <navigator url='../examineRecode/index?id=1' class='bottom-border topBom-20 titleFontcontent-15 text-indent1'>
-          ■ 司机核查记录  
+        <navigator url='../driverResult/index?id=1' class='bottom-border topBom-20 titleFontcontent-15 text-indent1'>
+          ● 　个人资料  
         </navigator>
  
         <navigator url='../examineRecode/index?id=2'  class=' topBom-20 titleFontcontent-15 text-indent1'>
-          ■ 车辆核查记录 
+          ● 　我参加的活动
         </navigator>
     </view> 
 </view>
